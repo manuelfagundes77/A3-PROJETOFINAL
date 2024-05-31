@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css/global.css">
+   <title>Reconhecimento facial</title>
+
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <header class="main-header">
+
+      <a href="strata.html" class="main-header-link  imagem-esq ">
+         <img  
+         data-aos="fade-left" 
+         data-aos-duration="1000" 
+         data-aos-easing="ease-in-out"
+         src="style.css/assets/facil2.jpg" alt="foto da imagem" width="250px"
+         >
+      </a>
+      <h1 class="main-header-title" 
+
+      data-aos="fade-right" 
+      data-aos-duration="1000" 
+      data-aos-easing="ease-in-out"
+      data-aos-delay="500"
+
+
+         >Facial Recognition<br>
+         <strong>Beyond the Face: Exploring the Advances and Challenges of Facial Recognition</strong>
+         
+      
+         
+      </h1>
+      <p class="erick" 
+      data-aos="fade-left" 
+      data-aos-duration="1000" 
+      data-aos-easing="ease-in-out"
+      data-aos-delay="500"
+
+
+
+      >Welcome to our website dedicated to exploring the challenges and solutions in the artificial intelligence journey. As AI continues to shape our world in fascinating ways, we can't ignore the obstacles that arise along the way. Here, we seek to illuminate the common mistakes that can arise in the development and implementation of AI systems, from algorithmic biases to interpretability problems. Our mission is not only to identify these challenges, but also to offer practical solutions and valuable insights to help the development community overcome them. Join us as we explore the ups and downs of AI, towards a more ethical, transparent and effective future.</p>
+
+      <nav>
+
+         <div class="nav2"  
+         data-aos="fade-down" 
+         data-aos-duration="1000" 
+         data-aos-easing="ease-in-out"
+         data-aos-delay="500"    
+         >
+
+            <H3> Authors</H3>
+            <ul class="teste">
+
+               <li class="nav"><a href="" target="_blank">Aerton
+                 
+               </a></li>
+
+               <li class="nav"><a href="https://www.linkedin.com/in/ailtongabriel98/" target="_blank">Ailton
+                  
+               </a></li>
+
+               <li class="nav"><a href="https://www.linkedin.com/in/elane-pessoa-504ab11a3/" target="_blank">Elane</a></li>
+
+               <li class="nav"><a href="https://www.linkedin.com/in/erick-martins-da-mata-a5201826a/" target="_blank">Erick</a></li>
+              
+               <li class="nav"><a href="https://br.linkedin.com/in/manuelfagundes" target="_blank">Manuel</a></li>
+              
+               <li class="nav"><a href="https://www.linkedin.com/in/ryan-guilherme-2a2315262/" target="_blank">Ryan</a></li>
+               
+               <li class="nav"><a href="https://www.linkedin.com/in/everton-enes-a5a170262/" target="_blank">Everton
+                 
+               </a></li>
+              
+               <li class="nav"><a href="" target="_blank">Jeosafá</a></li>
+              
+              
+
+            </ul>
+         </div>
+      </nav>
+
+   </header>
+
+   <main class="main-content"  >
+
+    <div    class="app"
+    
+      data-aos="fade-down" 
+      data-aos-duration="1000" 
+      data-aos-easing="ease-in-out"
+      >
+
+      <div class="pt-titulo">
+         <h1 class="titulo">Facial Recognition: Innovations and Controversies in the Age of Surveillance</h1> 
+       </div>
+
+      <section class="pt">    
+         <h2 class="title-historia">The History</h2>
+         <div class="img" >
+            <img  class="img-zoom" src="./style.css/assets/facial.jpg" 
+            alt="">
+         </div>
+     
+         <div class="historia">
+            
+            <li><b>1960s to 1980s:</b> The first significant advancements in facial recognition were carried out during this period. Algorithms were developed to identify facial features in photographs, but the limited computational power of the time restricted the efficiency of these methods.</li>
+
+            <li><b>1990s:</b> There were advances in facial recognition technology, with the development of techniques based on facial geometry and analysis of specific features. However, these methods still faced significant challenges in terms of accuracy and computational efficiency.</li>
+
+            <li><b>2000s:</b> The popularization of machine learning algorithms, such as Artificial Neural Networks, boosted the advancement of facial recognition. Deep learning-based methods began to demonstrate more promising results, especially with the increased availability of data and computational power.</li>
+
+            <li><b>2010s:</b> Facial recognition became a widely adopted technology in a variety of applications, including <b>security, surveillance, biometric identification, and even in social networks for automatic photo tagging.</b> Major technology companies heavily invested in this area, leading to significant advances in accuracy and scalability.</li>
+
+            <li><b>2020s:</b> Facial recognition technology continued to develop, while at the same time facing <span>
+              growing concerns about privacy and ethical use. </span>  Issues about algorithmic bias, unequal accuracy across different demographic groups, and potential misuse of the technology led to debates about regulation and governance.</li>
+
+              <p>Although facial recognition has made impressive progress over the decades, <b>there are still challenges to be overcome, especially regarding ethical, legal, and privacy issues.</b></p>
+
+            </div>
+
+        
+
+      </section>
+
+      <div class="segundaparte">
+
+         <h2>2D Technology</h2>
+         <p>Most systems use 2D camera technology, which creates a flat image of a face and maps the "nodal points" (size/shape of the eyes, nose, cheekbones, etc.). The system then calculates the relative position of the nodal points and converts the data into a numerical code. <b>Recognition algorithms look for a match in a database of stored faces.</b> </p>
+         <p>2D technology works well in stable and well-lit conditions, such as passport control. However, it is less effective in darker environments and does not produce good results when objects move. It is also easy to fool with a photograph.</p>
+
+
+         <h3>Liveness Detection</h3>
+         <p>One way to overcome these flaws is with liveness detection.</p>
+         <p>In summary, liveness detection is a technology that helps to confirm that the interaction is with a real and living human being, not with a fake or recorded version.</p>
+         <p>These systems look for indicators of a non-living image, such as inconsistent characteristics between foreground and background. They may ask the user to blink or move (active liveness) or make analyses based on depth and heat points on the face among other possibilities (passive liveness). They are needed to defeat criminals trying to deceive facial recognition systems using photographs or masks.</p>
+         <p>This technique is widely used by banks, for example, who need extra security when confirming actions by their users in their apps.</p>
+         
+
+
+        
+      </div>
+     
+
+      <div class="tec3d">
+         
+         <h2>3D Technology</h2>
+         
+         <p>Apple uses 3D camera technology to power the thermal infrared-based facial identification function on its iPhone. Thermal infrared images map face patterns, mainly from the pattern of superficial blood vessels under the skin. Apple also sends the captured facial pattern to a "secure enclave" on the device.</p>
+         
+         
+           
+         <div class="img">
+            <img class="img-zoom" src="./style.css/assets/facial3.jpg" alt="">
+         </div>
+
+         <h3>Facial Recognition vs. Facial Detection</h3>
+
+         <p>
+            Although "facial recognition" is generally a broad term, this is not entirely accurate. There is a crucial distinction between facial recognition and facial detection. </p>
+
+            <p> Facial recognition describes scanning and matching a face to the same person in a bank. This approach unlocks phones or authenticates a person entering a building and performing certain services.</p>
+            
+            <p> Facial detection occurs when a system tries to establish the presence of a face. Social networking companies use facial detection to filter and organize images in large photo catalogs.
+            </p>
+           <p>
+            The tools used to train the two systems are different. The desired levels of accuracy also vary. <b>Facial recognition for identification purposes needs to score higher than any system that just organizes images.</b> 
+           </p>
+            
+            <p>The confusion between the two processes has caused some controversy. In 2019, a researcher revealed that Amazon's systems were much better at classifying the gender of light-skinned men than dark-skinned women. This led to fears that surveillance systems could make more false matches for some ethnic groups.</p>
+
+      </div>
+
+
+      <div class="precisaodesigual">
+         <h2>Unequal Accuracy</h2>
+
+         <div class="fotoetica ">
+            <img    class="etica2" src="./img/Imagem_3.png" alt="">
+       </div>
+         <p>The issue of unequal accuracy in facial recognition technologies among different demographic groups is a critical aspect that has received considerable attention in recent years. <b>These disparities can result in higher rates of incorrect identification or failures to recognize individuals from certain groups, raising serious concerns about fairness, discrimination, and rights violation.</b></p>
+
+         <h3>Causes of Unequal Accuracy</h3>
+        
+            <li>
+              <b>Bias in Training Data:</b>  One of the main factors contributing to inaccuracy is the bias present in the dataset used to train facial recognition algorithms. If a dataset predominantly contains images of people from certain demographic groups, the system will be more accurate for these groups and less accurate for others.
+           </li>
+            <li>
+            <b>Lighting and Angle Variations:</b>    Differences in lighting and the angle of photos can disproportionately affect the accuracy of facial recognition for people with darker skin tones, contributing to the accuracy disparity between different ethnic or racial groups
+           </li>
+            <li>
+              <b>Machine Learning Techniques:</b>  Algorithms that are not carefully designed to minimize or eliminate bias can perpetuate or even amplify disparities.
+            </li>
+            
+       
+
+         <h3>Impacts and Consequences</h3>
+         <p><b>Implications in Law Enforcement:</b> Unequal accuracy has significant implications in law enforcement, where facial recognition is used to identify suspects. Identification errors can lead to unjust charges or detentions of innocent individuals, especially in marginalized communities.
+         </p>
+         <p><b>Access to Services:</b> Disparities in accuracy also can affect access to facial identification-based services, such as security systems or financial services, limiting or making access difficult for certain groups. </p>
+
+         <div class="exemplo">
+            <h2>Case Example -  Magazine Article “Novos Olhares”</h2>
+            <p>Facial recognition is the result of mapping facial lines. Through algorithms, it carries out a comparison with a "digital image", recognizing or denying, someone's "identity". As the technology still does not present complete efficiency in recognizing darker-skinned black people, mainly women, the most needy populations are more exposed to embarrassments and violence.</p>
+            <p>The article reports that a facial recognition device was applied in Bahia, Rio de Janeiro, Santa Catarina, and Paraíba and, according to the National Penitentiary Department, 108,395 people were detained, of which 66,419 were black or brown. A total of 61.27%, in clear evidence of unequal accuracy.</p>
+
+
+               <h3>Responses and Solutions</h3>
+               <div class="resflex">
+                <li class="resconteudo"
+
+                data-aos="fade-up" 
+                data-aos-duration="1000" 
+                data-aos-easing="ease-in-out"
+                data-aos-delay="500"
+
+                ><b >Diversification of Training Data:</b> 
+                     <p>Expand diversity in the training datasets to include an equitable representation of different demographic groups.</p>
+                  </li>
+
+                <li class="resconteudo"
+                data-aos="fade-left" 
+                data-aos-duration="1000" 
+                data-aos-easing="ease-in-out"
+                data-aos-delay="500"
+                ><b>Development of Standards and Guidelines: </b> 
+                  <p>Establish ethical standards and guidelines for the development and application of facial recognition technologies, aiming to reduce bias and disparities.</p>
+               </li>
+
+               <li class="resconteudo"
+               data-aos="fade-right" 
+                data-aos-duration="1000" 
+                data-aos-easing="ease-in-out"
+                data-aos-delay="500"
+               
+               ><b>Independent Testing and Evaluations:</b> 
+                  <p>Conduct independent tests and regular evaluations of facial recognition technologies to identify and correct bias and accuracy disparities.</p>
+               </li>
+
+               <li class="resconteudo"
+               data-aos="fade-down" 
+               data-aos-duration="1000" 
+               data-aos-easing="ease-in-out"
+               data-aos-delay="500"
+               ><b>Legislation and Regulation:</b> 
+                  <p>Implement legislation and regulations that require transparency, fairness, and accountability in the development and use of facial recognition technologies.</p>
+                   
+               </li>
+
+               
+               </div>
+               <p>Addressing the issue of unequal accuracy in facial recognition requires an ongoing collaborative effort among industry and government bodies to ensure that these technologies are developed and used in an ethical and fair manner. <b>See more below:</b></p> 
+
+              <div class="video">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2SdpzTZTznw?si=UD6PB-N5WbDAaC4S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+                
+               
+               
+                        
+         </div>
+
+         <div class="eticas">
+           <h2>Ethical Issues</h2>
+            <div class="fotoetica">
+                 <img  class="etica2" src="./img/Imagem_2.jpg" alt="">
+            </div>
+         
+           
+            <p>Facial recognition technology brings with it a number of significant ethical issues, many of which are at the center of current debates about privacy, surveillance, consent, and justice. Here are some of the main ethical concerns associated with this technology:</p>
+
+            <div class="y1">
+               <div class="y2 overlay">
+                  <h3 class="vertical-text ">Privacy</h3>
+                  <div class="y2conteudo">
+                    <li>Pervasive Surveillance: The ability to monitor, track, and identify individuals in public spaces or online without their knowledge or consent raises significant concerns about the loss of privacy.</li>
+                  <li>Collection of Sensitive Data: A person's face is a form of biometrically sensitive data. Storing and processing this data without adequate consent or security can lead to privacy breaches.</li> 
+                  </div>
+                  
+               </div>
+
+               <div class="y2 overlay">
+                  <h3 class="vertical-text">Consent</h3>
+                     <div class="y2conteudo"> 
+                        <li>Lack of Transparency and Consent: Often, people are unaware that their facial image is being collected, stored, or used, raising questions about the lack of informed consent.
+                     </li>
+                        
+                     </div>
+                    
+               </div>
+
+               <div class="y2 overlay ">
+                  <h3 class="vertical-text"> Discrimination</h3>
+                  <div class="y2conteudo">
+                    <li> <b>Unequal Accuracy:</b> As discussed earlier, facial recognition can have variable accuracy rates among different demographic groups, which can lead to discrimination and unfair treatment of minorities.
+                  </li>
+                  <li><b>Reinforcement of Stereotypes and Bias:</b> The technology can perpetuate existing stereotypes and reinforce bias, especially if the algorithms are trained on datasets that do not adequately represent the diversity of the population.
+                  </li> 
+                  </div>
+                  
+               </div>
+
+               <div class="y2 overlay">
+                  <h3 class="vertical-text">Monitoring</h3>
+
+                  <div class="y2conteudo ">
+                     <li> <b>Surveillance by Governments and Corporations:</b> Government use for mass surveillance or corporate monitoring of consumers without adequate safeguards can result in abuses of power and erosion of civil liberties.</li>
+                  <li> <b>Impact on Protests and Freedom of Expression:</b> Facial recognition can be used to identify and suppress protesters, activists, and dissidents, threatening the right to freedom of expression and assembly.</li>
+                  </div>
+                  
+               </div>
+               <div class="y2 overlay">
+                  <h3 class="vertical-text">Security</h3>
+                  <div class="y2conteudo">
+                     <li><b>Vulnerability to Attacks:</b> Biometric data, such as facial images, are extremely sensitive and, once compromised, cannot be easily changed, unlike passwords or identification numbers.</li>
+                     <li> <b>Misuse of Data:</b> There is a risk that collected facial recognition data could be used for unauthorized or malicious purposes, including undue surveillance, identification, and stalking of individuals.</li>
+                  </div>
+                     
+               </div>
+               <div class="y2 overlay">
+                  <h3 class="vertical-text">Identity</h3>
+                  <div class="y2conteudo">
+                     <li><b>Erosion of Individual Autonomy: </b>The ability to be anonymous in public spaces is an important aspect of individual autonomy. Facial recognition can erode this autonomy by allowing constant identification and tracking of individuals.</li>
+                  <li>Manipulation of Identity: Advanced facial recognition technologies can also be used to create deepfakes or manipulate visual identities, raising questions about authenticity and trust.</li>
+                 
+                  </div>
+                  
+               </div>
+
+            </div> 
+            <p> Given the complexity and seriousness of these ethical issues, many call for a cautious approach in the development and implementation of facial recognition technology, with strong emphasis on regulation, transparency, accountability, and respect for human rights and fundamental freedoms.</p>
+
+           
+            
+
+           
+
+            
+         </div>
+
+
+         <div class="conclusao">
+            <h2>How to Improve Inequality in FR (Facial Recognition)</h2>
+            <p>Improving unequal accuracy of facial recognition among different demographic groups is a complex task that requires multidisciplinary approaches, involving technical innovations, rigorous ethical guidelines, and regulatory policies. Here are some strategies that can help address and minimize these disparities:</p>
+
+            <h3>1. Diversification of Training Datasets</h3>
+            <li><b>Representativeness: </b> Ensure that the datasets used to train facial recognition algorithms are broadly representative of global diversity, including different ethnicities, ages, genders, lighting conditions, and poses.</li>
+            <li><b>Fairly Annotated Data:</b> Improve the quality of annotations in datasets, ensuring they are made fairly and accurately, reflecting the diversity and nuances of different demographic groups.</li>
+
+
+            <h3>2. Development and Implementation of More Advanced AI Techniques</h3>
+            <li><b>Unbalanced Learning: </b> Implement machine learning techniques that can effectively deal with imbalances in training data.</li>
+            <li><b>Bias Mitigation: </b> Develop and apply methods to identify, evaluate, and mitigate these tendencies in facial recognition algorithms, both in the training phase and in the inference phase.</li>
+
+            <h3>3. Rigorous Testing and Performance Evaluation</h3>
+            <li><b>Continuous Evaluation: </b> Conduct rigorous and continuous testing of facial recognition systems across a wide range of scenarios and demographic groups to identify and correct accuracy disparities.
+            </li>
+            <li><b>Performance Standards: </b> Establish and adhere to clear performance standards that ensure fairness and equality in facial recognition, regardless of demographic group.</li>
+
+            <h3>4. Ethics, Transparency, and Governance</h3>
+          <li><b>Ethical Principles: </b> Adopt ethical principles in the development and application of facial recognition technologies, prioritizing fairness, transparency, and accountability.</li>
+          <li><b>Governance and Regulation: </b> Establish regulatory frameworks that require transparency in training methodologies, independent evaluation of accuracy among different demographic groups, and corrective measures for identified disparities.
+          </li>
+
+          <h3>5. Collaboration and Community Participation</h3>
+          <li><b>Engagement with communities: </b>Engage differents communities and demographic groups in the development and evaluation process of facial recognition systems to ensure that their perspectives and concerns are considered.</li>
+          <li><b>Collaborative Research and Development:</b>  Foster collaboration between academics, industry, rights advocacy groups, and regulators to research and develop fairer and more equitable solutions.</li>
+          
+          <h3> 6. Education and Awareness</h3>
+          <li><b> Ethics and Bias Training for Developers: </b>   Promote education and awareness about bias, ethical, and social justice issues among AI developers and researchers, encouraging the creation of more inclusive and equitable technologies.</li>
+
+          <p>Addressing the issue of unequal accuracy in facial recognition technologies requires an ongoing commitment to responsible innovation, careful regulation, and engagement with human diversity in its entirety. By adopting these strategies, it is possible to move towards fairer and more accurate facial recognition systems for all.</p>
+
+          <p>Facial recognition is a powerful technology that offers many benefits, but it also raises significant ethical issues, especially in terms of privacy, consent, bias, and discrimination. Disparities in facial recognition accuracy among different demographic groups highlight concerns about fairness and equality, with potentially negative impacts in terms of surveillance, law enforcement, and access to services.</p>
+
+          <p>To address these issues, it is crucial to diversify training datasets, develop advanced AI techniques to mitigate bias, implement rigorous testing and performance standards, and adopt strong ethical principles in the governance of this technology. Collaboration between developers, communities, academics, and regulators is essential to ensure that facial recognition is developed and applied in a fair and responsible manner, considering the diversity and needs of all demographic groups.</p>
+         
+       
+
+         </div>
+
+      </div>
+      <footer>
+         <h3>Authors</h3>
+         <p>Manuel Geraldo Fagundes de Oliveira Bezerra - RA 12823125837  </p>
+         <p>Ailton Gabriel Figueira Dantas Ramos da Silva - RA 1282312497</p>
+         <p>Erick Martins da Mata - RA 1282314715</p>
+         <p>Everton Enes Bezerra - RA 12823132554</p>
+         <p>Ryan Guilherme Costa da Silva - RA 12823113106</p>
+         <p>Elane Pereira Pessoa - RA 12823132990</p>
+         <p>Jeosafa Magno Candido de Lima - RA 12823126906</p>
+         <p>Aerton Rodrigues de Almeida Filho - RA 12823125708</p>
+      </footer>
+    
+
+    </div>
+   </main>
+
+   <script src="main.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</body>
+
+</html>
